@@ -4,7 +4,7 @@
     <head>
         <title>Projects</title>
 
-        <link rel="stylesheet" href="css/desktop.css">
+        <link rel="stylesheet" href="desktop.css">
         <link rel="shortcut icon" href="images/favicon.ico">
 
         <meta charset="UTF-8">
@@ -20,17 +20,19 @@
         <!-- SIDEBAR -->
 
         <div class="sidebar">
-            <div class="first-thumbnail">
+            <div class="thumbnail first-thumbnail">
                 <p class="thumbnail">machinE</p>
-                <img id="machine" class="thumbnail thumbnail-clicked" src="images/machine/machine-thumbnail.png" alt="" onclick="switchProject(this)">
+                <img id="machine" class="thumbnail thumbnail-clicked" src="images/machine/machine-thumbnail.png" alt="" onclick="switchProject(this)" onmouseenter="cursorPointer()" onmouseleave="cursorAuto()">
             </div>
-            <div>
+
+            <div class="thumbnail">
                 <p class="thumbnail">Treehopping with Benjy</p>
-                <img id="benjy" class="thumbnail" src="images/benjy/benjy-thumbnail.png" alt="" onclick="switchProject(this)">
+                <img id="benjy" class="thumbnail" src="images/benjy/benjy-thumbnail.png" alt="" onclick="switchProject(this)" onmouseenter="cursorPointer()" onmouseleave="cursorAuto()">
             </div>
-            <div>
+
+            <div class="thumbnail">
                 <p class="thumbnail">Gimme Cards</p>
-                <img id="gimmecards" class="thumbnail" src="images/gimmecards/gimmecards-thumbnail.png" alt="" onclick="switchProject(this)">
+                <img id="gimmecards" class="thumbnail" src="images/gimmecards/gimmecards-thumbnail.png" alt="" onclick="switchProject(this)" onmouseenter="cursorPointer()" onmouseleave="cursorAuto()">
             </div>
         </div>
 
@@ -68,8 +70,8 @@
             </div>
 
             <div class="container">
-                <img class="screenshot" src="images/machine/machine-concept-1.png" alt="" onclick="enterZoom(this)">
-                <img class="screenshot" src="images/machine/machine-concept-2.png" alt="" onclick="enterZoom(this)">
+                <img class="screenshot" src="images/machine/machine-concept-1.png" alt="" onclick="enterZoom(this)" onmouseenter="cursorZoomIn()" onmouseleave="cursorAuto()">
+                <img class="screenshot" src="images/machine/machine-concept-2.png" alt="" onclick="enterZoom(this)" onmouseenter="cursorZoomIn()" onmouseleave="cursorAuto()">
             </div>
             <div class="container">
                 <div class="caption">
@@ -81,8 +83,8 @@
             </div>
 
             <div class="container">
-                <img class="screenshot" src="images/machine/machine-art.png" alt="" onclick="enterZoom(this)">
-                <img class="screenshot" src="images/machine/machine-levels.png" alt="" onclick="enterZoom(this)">
+                <img class="screenshot" src="images/machine/machine-art.png" alt="" onclick="enterZoom(this)" onmouseenter="cursorZoomIn()" onmouseleave="cursorAuto()">
+                <img class="screenshot" src="images/machine/machine-levels.png" alt="" onclick="enterZoom(this)" onmouseenter="cursorZoomIn()" onmouseleave="cursorAuto()">
             </div>
             <div class="container">
                 <div class="caption">
@@ -94,8 +96,8 @@
             </div>
 
             <div class="container">
-                <img class="screenshot" src="images/machine/machine-game-1.jpg" alt="" onclick="enterZoom(this)">
-                <img class="screenshot" src="images/machine/machine-game-2.jpg" alt="" onclick="enterZoom(this)">
+                <img class="screenshot" src="images/machine/machine-game-1.jpg" alt="" onclick="enterZoom(this)" onmouseenter="cursorZoomIn()" onmouseleave="cursorAuto()">
+                <img class="screenshot" src="images/machine/machine-game-2.jpg" alt="" onclick="enterZoom(this)" onmouseenter="cursorZoomIn()" onmouseleave="cursorAuto()">
             </div>
             <div class="container">
                 <div class="caption">
@@ -142,8 +144,8 @@
             </div>
 
             <div class="container">
-                <img class="screenshot" src="images/benjy/benjy-concept.jpg" alt="" onclick="enterZoom(this)">
-                <img class="screenshot" src="images/benjy/benjy-art.png" alt="" onclick="enterZoom(this)">
+                <img class="screenshot" src="images/benjy/benjy-concept.jpg" alt="" onclick="enterZoom(this)" onmouseenter="cursorZoomIn()" onmouseleave="cursorAuto()">
+                <img class="screenshot" src="images/benjy/benjy-art.png" alt="" onclick="enterZoom(this)" onmouseenter="cursorZoomIn()" onmouseleave="cursorAuto()">
             </div>
             <div class="container">
                 <div class="caption">
@@ -155,8 +157,8 @@
             </div>
 
             <div class="container">
-                <img class="screenshot" src="images/benjy/benjy-cutscene-1.jpg" alt="" onclick="enterZoom(this)">
-                <img class="screenshot" src="images/benjy/benjy-cutscene-2.jpg" alt="" onclick="enterZoom(this)">
+                <img class="screenshot" src="images/benjy/benjy-cutscene-1.jpg" alt="" onclick="enterZoom(this)" onmouseenter="cursorZoomIn()" onmouseleave="cursorAuto()">
+                <img class="screenshot" src="images/benjy/benjy-cutscene-2.jpg" alt="" onclick="enterZoom(this)" onmouseenter="cursorZoomIn()" onmouseleave="cursorAuto()">
             </div>
             <div class="container">
                 <div class="caption">
@@ -168,8 +170,8 @@
             </div>
 
             <div class="container">
-                <img class="screenshot" src="images/benjy/benjy-cutscene-3.jpg" alt="" onclick="enterZoom(this)">
-                <img class="screenshot" src="images/benjy/benjy-cutscene-4.jpg" alt="" onclick="enterZoom(this)">
+                <img class="screenshot" src="images/benjy/benjy-cutscene-3.jpg" alt="" onclick="enterZoom(this)" onmouseenter="cursorZoomIn()" onmouseleave="cursorAuto()">
+                <img class="screenshot" src="images/benjy/benjy-cutscene-4.jpg" alt="" onclick="enterZoom(this)" onmouseenter="cursorZoomIn()" onmouseleave="cursorAuto()">
             </div>
             <div class="container">
                 <div class="caption">
@@ -255,27 +257,25 @@
         <!-- MENU -->
 
         <div class="menu">
-            <a class="button" href="index.html">
-                <h1 class="menu" onclick="switchMenuItem(this)">About Me</h1>
+            <a class="menu" href="index.html">
+                <h1 class="menu">About Me</h1>
             </a>
             
-            <a class="button" href="projects.html">
-                <h1 class="menu menu-clicked" onclick="switchMenuItem(this)">Projects</h1>
+            <a class="menu" href="projects.html">
+                <h1 class="menu menu-clicked">Projects</h1>
             </a>
 
-            <a class="button" href="https://www.instagram.com/quackadoodles.3d/" target="_blank">
+            <a class="menu" href="https://www.instagram.com/quackadoodles.3d/" target="_blank">
                 <h1 class="menu">3D Art ▶</h1>
             </a>
         </div>
 
         <!-- OVERLAY -->
-        <!-- elements that come later go on top! -->
+        <!-- for fixed elements, those that come later go on top! -->
 
-        <div class="overlay" id="overlay" onclick="exitZoom()"></div>
+        <div class="overlay" id="overlay" onclick="exitZoom(); cursorAuto()" onmouseenter="cursorZoomOut()"></div>
 
-        <img class="x-button" id="x-button" src="images/general/x-button.png" alt="" onclick="exitZoom()">
-
-        <img class="zoomed-image" id="zoomed-image" src="" alt="">
+        <img class="zoomed-image" id="zoomed-image" src="" alt="" onmouseenter="cursorAuto()">
 
         <!-- SCRIPTS -->
 
@@ -323,7 +323,6 @@
             function enterZoom(elem) {
                 document.getElementById("overlay").style.display = "block";
                 document.getElementById("zoomed-image").style.display = "block";
-                document.getElementById("x-button").style.display = "block";
                 //
                 document.getElementById("zoomed-image").src = elem.src;
             }
@@ -332,7 +331,22 @@
             function exitZoom() {
                 document.getElementById("overlay").style.display = "none";
                 document.getElementById("zoomed-image").style.display = "none";
-                document.getElementById("x-button").style.display = "none";
+            }
+
+            function cursorZoomIn() {
+                document.body.style.cursor = "zoom-in";
+            }
+
+            function cursorZoomOut() {
+                document.body.style.cursor = "zoom-out";
+            }
+
+            function cursorPointer() {
+                document.body.style.cursor = "pointer";
+            }
+
+            function cursorAuto() {
+                document.body.style.cursor = "auto";
             }
         </script>
     </body>

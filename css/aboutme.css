@@ -1,0 +1,35 @@
+div.aboutme {
+    display: flex;
+    position: fixed;
+    overflow-y: scroll;
+    height: 100%;
+}
+
+div.mylife {
+    margin-top: /*120px*/7.937vw;
+}
+
+img.mylife {
+    width: /*450px*/29.762vw;
+    margin-left: /*150px*/9.921vw;
+}
+
+h1.welcome {
+    font-family: 'Roboto Mono';
+    font-size: /*25px*/1.653vw;
+    font-weight: 400;
+    color: white;
+    margin-top: /*120px*/7.937vw;
+    margin-left: /*60px*/3.968vw;
+}
+
+p.bio {
+    font-family: 'Rubik';
+    font-size: /*18px*/1.19vw;
+    font-weight: 300;
+    color: white;
+    line-height: 180%;
+    margin-top: /*15px*/0.992vw;
+    margin-left: /*60px*/3.968vw;
+    margin-right: /*150px*/9.921vw;
+}

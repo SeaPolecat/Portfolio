@@ -1,0 +1,63 @@
+/* RUBIK */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+/* ROBOTO MONO */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+/* CSS FILES */
+@import url(css/buttons.css);
+@import url(css/menu.css);
+@import url(css/aboutme.css);
+@import url(css/projects-sidebar.css);
+@import url(css/projects-content.css);
+@import url(css/projects-overlay.css);
+
+/* TESTING */
+
+/*div {
+    border: 1px solid white;
+}
+
+a {
+    border: 1px solid red;
+    padding: 0;
+}
+
+h1 {
+    border: 1px solid white;
+}
+
+/*img.stars {
+    position: absolute;
+    animation: scrolling 150s linear infinite;
+    z-index: 0;
+}
+
+@keyframes scrolling {
+    100% {
+        transform: translateX(-1512px);
+    }
+}*/
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    overflow: hidden; /* prevent the white space from overscrolling */
+    cursor: auto;
+    background-color: #1a1073;
+    background-image: linear-gradient(black, #010826, #1a1073);
+    background-attachment: fixed;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img.stars {
+    position: fixed;
+    width: 100%;
+    margin-top: /*100px*/6.614vw;
+    opacity: 0.5;
+}

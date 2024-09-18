@@ -1,0 +1,45 @@
+div.sidebar {
+    position: fixed;
+    overflow-y: scroll;
+    width: 20%;
+    height: 100%;
+}
+
+div.thumbnail {
+    margin-left: /*40px*/2.646vw;
+}
+
+div.first-thumbnail {
+    margin-top: /*120px*/7.937vw;
+}
+
+p.thumbnail {
+    text-align: center;
+    font-family: 'Rubik';
+    font-size: /*15px*/0.992vw;
+    font-weight: 300;
+    color: white;
+    margin-bottom: /*15px*/0.992vw;
+}
+
+img.thumbnail {
+    display: block;
+    width: /*140px*/9.259vw;
+    border: /*2px*/0.132vw solid gray;
+    border-radius: /*3px*/0.198vw;
+    margin-bottom: /*35px*/2.315vw;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.2s;
+}
+
+img.thumbnail:hover {
+    width: /*150px*/9.921vw;
+    border: /*3px*/0.198vw solid white;
+    transition: 0.2s;
+}
+
+img.thumbnail-clicked {
+    width: /*150px*/9.921vw;
+    border: /*3px*/0.198vw solid white;
+}

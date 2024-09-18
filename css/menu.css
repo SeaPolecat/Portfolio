@@ -1,0 +1,32 @@
+div.menu {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    padding-top: /*30px*/1.984vw;
+    padding-bottom: /*30px*/1.984vw;
+}
+
+a.menu {
+    margin-left: /*50px*/3.307vw;
+    margin-right: /*50px*/3.307vw;
+}
+
+h1.menu {
+    display: inline;
+    font-family: 'Rubik';
+    font-size: /*32px*/2.116vw;
+    font-weight: 400;
+    color: gray;
+    margin: 0;
+    transition: 0.2s;
+}
+
+h1.menu:hover {
+    color: white;
+    transition: 0.2s;
+}
+
+h1.menu-clicked {
+    color: white;
+}

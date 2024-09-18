@@ -1,0 +1,96 @@
+div.content {
+    display: none;
+    position: fixed;
+    overflow-y: scroll;
+    width: 80%;
+    height: 100%;
+    margin-left: /*300px*/19.841vw;
+}
+
+div.content-clicked {
+    display: block;
+}
+
+div.container {
+    display: flex;
+}
+
+embed.trailer {
+    width: /*960px*/63.492vw;
+    height: /*540px*/35.714vw;
+    margin-top: /*120px*/7.937vw;
+    margin-left: /*50px*/3.307vw;
+}
+
+h1.title {
+    font-family: 'Roboto Mono';
+    font-size: /*30px*/1.984vw;
+    font-weight: 400;
+    color: white;
+    margin-top: /*25px*/1.653vw;
+    margin-bottom: /*10px*/0.661vw;
+    margin-left: /*50px*/3.307vw;
+}
+
+h1.date {
+    font-family: 'Rubik';
+    font-size: /*20px*/1.323vw;
+    font-weight: 300;
+    color: white;
+    margin-top: /*36px*/2.381vw;
+    margin-left: /*50px*/3.307vw;
+}
+
+p.description {
+    font-family: 'Rubik';
+    font-size: /*18px*/1.19vw;
+    font-weight: 300;
+    color: white;
+    line-height: 180%;
+    margin-bottom: /*20px*/1.323vw;
+    margin-left: /*50px*/3.307vw;
+    margin-right: /*200px*/13.228vw;
+}
+
+a.hyperlink {
+    text-decoration: underline;
+    color: deepskyblue;
+    transition: 0.2s;
+}
+
+a.hyperlink:hover {
+    color: cyan;
+    transition: 0.2s;
+}
+
+img.screenshot {
+    display: block;
+    width: /*500px*/33.069vw;
+    margin-top: /*20px*/1.323vw;
+    margin-left: /*50px*/3.307vw;
+    transition: 0.2s;
+}
+
+img.screenshot-gimmecards {
+    display: block;
+    width: /*500px*/33.069vw;
+    margin-left: /*50px*/3.307vw;
+    margin-top: /*20px*/1.323vw;
+}
+
+img.screenshot:hover {
+    transform: scale(1.03);
+}
+
+div.caption {
+    width: /*500px*/33.069vw; /*same as image*/
+    margin-left: /*50px*/3.307vw;
+}
+
+h1.caption {
+    text-align: left;
+    font-family: 'Rubik';
+    font-size: /*15px*/0.992vw;
+    font-weight: 300;
+    color: white;
+}

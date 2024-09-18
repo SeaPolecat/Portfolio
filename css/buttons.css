@@ -1,0 +1,45 @@
+a.button {
+    border-radius: /*30px*/1.984vw;
+    margin-top: /*25px*/1.653vw;
+    margin-left: /*50px*/3.307vw;
+}
+
+h1.button {
+    display: block;
+    font-family: 'Rubik';
+    font-size: /*20px*/1.323vw;
+    font-weight: 400;
+    color: white;
+    border-radius: /*30px*/1.984vw;
+    margin: 0; /* eliminates the extra space of the 'a' element around it */
+    padding-top: /*10px*/0.661vw;
+    padding-bottom: /*10px*/0.661vw;
+    padding-left: /*12px*/0.794vw;
+    padding-right: /*12px*/0.794vw;
+    transition: 0.2s;
+}
+
+h1.button:hover {
+    color: black;
+    background-color: white;
+}
+
+a.button-bio-linkedin {
+    margin-left: /*60px*/3.968vw;
+}
+
+a.button-bio-other {
+    margin-left: /*30px*/1.984vw;
+}
+
+h1.button-bio {
+    background-color: royalblue;
+}
+
+h1.button-benjy {
+    background-color: #c193fd;
+}
+
+h1.button-gimmecards {
+    background-color: #408CFF;
+}
